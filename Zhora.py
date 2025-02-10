@@ -3,7 +3,7 @@ import seaborn as sns
 import streamlit as st
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('C:/Users/georg/Downloads/Opta_Data_Soccer_Schedule_and_Results_Data_Sample_Examples.xls')
+df = pd.read_csv('Downloads/Opta_Data_Soccer_Schedule_and_Results_Data_Sample_Examples.xls')
 
 df = df[['REGION','COUNTRY','COMPETITION', 'SEASON', 'DATE_TIME','HOME','AWAY', 'HOME_SCORE', 'AWAY_SCORE','VENUE']]
 
